@@ -1,0 +1,29 @@
+:root {
+  --headline: #fffffe;
+  --background: #242424;
+  --paragraph: #bdbdbd;
+  --link: #919191;
+  --link-hover: #fffffe;
+  --very-faint: #2e2e2e;
+
+  background-color: var(--background);
+}
+
+body {
+  line-height: 1.5;
+  color: var(--paragraph);
+  background-color: var(--background);
+  font-family: comfortaa;
+  margin: 0;
+  transition: all 1.3s ease;
+}
+
+@font-face {
+  font-family: redactedScript;
+  src: url('assets/fonts/RedactedScript-Light.ttf');
+}
+
+@font-face {
+  font-family: comfortaa;
+  src: url('assets/fonts/Comfortaa.ttf');
+}
