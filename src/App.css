@@ -1,12 +1,11 @@
 .my-navbar {
-  display: flex;
   border-bottom: .1rem var(--very-faint) solid;
 }
 
 .nav-section {
   display: flex;
   justify-content: center;
-  gap: 1.3rem;
+  gap: 1.5rem;
   text-align: center;
   align-items: center;
   padding: 1rem;
@@ -33,25 +32,15 @@ a:hover {
 }
 
 #nav-logo {
-  flex-basis: 20%;
-  justify-content: flex-start;
   border-right: .1rem var(--very-faint) solid;
 }
 
 #nav-links {
-  flex-basis: 50%;
-  justify-content: center;
   border-right: .1rem var(--very-faint) solid;
 }
 
 #nav-socials {
-  flex-basis: 20%;
-  justify-content: center;
   border-right: .1rem var(--very-faint) solid;
-}
-
-#nav-contact {
-  flex-basis: 10%;
 }
 
 
@@ -62,10 +51,7 @@ main {
 }
 
 article {
-  display: grid;
   height: 86vh;
-  grid-template-columns: 70fr 30fr;
-  grid-template-rows: 3fr 1fr;
 }
 
 .main-section {
@@ -88,4 +74,28 @@ article {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.project-stack span {
+  font-size: 15px;
+  font-weight: 900;
+  background-color: var(--link);
+  padding: .3rem;
+  color: var(--background);
+  border-radius: 10px;
+}
+
+#main-controlls .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#main-controlls button {
+  font-size: 7rem;
+  font-weight: 100;
+  color: var(--link);
 }
