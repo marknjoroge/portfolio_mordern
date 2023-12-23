@@ -1,119 +1,51 @@
 export var data = [{
+	"type": "website",
+	"tech": ["react js", "node js"],
+	"name": "Elizabeth Wangari & Co Advocates",
+	"link": "https://marknjoroge.github.io/Elizabeth-Law-Firm/",
+	"description": "A minimalistic website for a law firm. The website is built using React JS and Bootstrap 4.",
+	"images": [
+		"elizabeth_wangari/1.png",
+		"elizabeth_wangari/2.png",
+		"elizabeth_wangari/3.png",
+		"elizabeth_wangari/4.png",
+	],
+}, {
+	"type": "website",
+	"tech": ["react js", "node js", "express js", "mysql"],
+	"name": "Accounts Escrow",
+	"link": "https://accountsescrow.co.ke/",
+	"description": "A website for a company that provides escrow services.",
+	"images": [
+		"accounts_escrow/1.png",
+		"accounts_escrow/2.png",
+	],
+}, {
 	"type": "app",
-	"tech": "Android java",
+	"tech": ["java"],
 	"name": "NutriPro",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://drive.google.com/file/d/1B_13O9fgN--Fq7qk0puZfNFbDRK-b1fE/view?usp=sharing",
-	"code": "",
-	"playstore": ""
-},
-{
+	"link": "",
+	"description": "A mobile application that helps users to track their daily calorie intake by scanning te food they are taking.",
+	"images": [
+	],
+}, {
 	"type": "app",
-	"tech": "Android java",
-	"name": "Mad Property Pal",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://drive.google.com/file/d/1-1-3Kp34Kr-Hx0e8Idn2Fc8cBFzALHgT/view?usp=sharing",
-	"code": "",
-	"playstore": ""
-},
-{
+	"tech": ["flutter"],
+	"name": "Hospital app UI hackathon",
+	"link": "https://twitter.com/gdsc_moi/status/1347580310528159744?s=20",
+	"description": "A university UI hackathon project for a hospital app.",
+	"images": [
+		"hospital_app/1.jpg",
+		"hospital_app/2.jpg",
+		"hospital_app/3.jpg",
+	],
+}, {
 	"type": "app",
-	"tech": "flutter",
-	"name": "Hospital App(UI hackathon)",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://drive.google.com/file/d/1iUH3H8yISAIUlSjJan39NfAxotrDxOMk/view?usp=sharing",
-	"code": "https://github.com/wanjiru-njoroge/hospital-dsc-moi",
-	"playstore": ""
-},
-{
-	"type": "app",
-	"tech": "flutter",
-	"name": "musicapp(ui hackathon)",
-	"image": "./assets/images/musicapp.jpg",
-	"playUrl": "",
-	"myUrl": "https://drive.google.com/drive/u/0/folders/1iJgZguFKE4c4q0l3zmgyiBsCep979a6O",
-	"code": "https://github.com/wanjiru-njoroge/",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "html, css, javascript",
-	"name": "this website",
-	"image": "./assets/images/me.jpg",
-	"playUrl": "",
-	"myUrl": "https://wanjiru-njoroge.github.io",
-	"code": "https://github.com/wanjiru-njoroge/wanjiru-njoroge.github.io",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "html, css",
-	"name": "greenleaf",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://wanjiru-njoroge.github.io/greenleaf/app/views/index.html",
-	"code": "https://github.com/wanjiru-njoroge/greenleaf",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "html, css, javascript",
-	"name": "Target website duplicate",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://wanjiru-njoroge.github.io/target-duplicate",
-	"code": "https://github.com/wanjiru-njoroge/target-duplicate",
-	"playstore": ""
-},
-{
-	"type": "other",
-	"tech": "java",
-	"name": "catalan dynamic algorithms",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://wanjiru-njoroge.github.io/target-duplicate",
-	"code": "https://github.com/wanjiru-njoroge/catalan-java",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "html, css, php, mysql",
-	"name": "Php database assignment",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://wanjiru-njoroge.github.io/phpdb",
-	"code": "https://github.com/wanjiru-njoroge/phpdb",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "html, css, javascript",
-	"name": "Marvel Axios API tutorial",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "https://wanjiru-njoroge.github.io/marvel-api",
-	"code": "https://github.com/wanjiru-njoroge/marvel-api",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "html, css, javascript",
-	"name": "Psychologist's Portfolio",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "./peter_owame",
-	"code": "https://github.com/wanjiru-njoroge/peter_owame",
-	"playstore": ""
-},
-{
-	"type": "website",
-	"tech": "React js, node js",
-	"name": "Do my coding",
-	"image": "",
-	"playUrl": "",
-	"myUrl": "http://domycoding.assistwriters.com/",
-	"playstore": ""
+	"tech": ["flutter"],
+	"name": "Music app UI hackathon",
+	"link": "https://twitter.com/gdsc_moi/status/1355133750179319810?s=20",
+	"description": "A university UI hackathon project for a music app.",
+	"images": [
+		"music_app/1.png",
+	],
 }]
